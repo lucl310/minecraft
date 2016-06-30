@@ -6,14 +6,29 @@
 </head>
 <body>
 
-<button type="button"
-onclick="pickOre()" id="button">
-Click me to mine an ore.
-</button>
-<img src="assets/Cobble.jpg" id="Cobble">
-<img src="assets/Diamond.png" id="Diamond">
-<img src="assets/Gold.png" id="Gold">
-<img src="assets/Iron.jpg" id="Iron">
-<script type="text/javascript" src="js/index.js"></script>
+	<div id="Pick"></div>
+	<button type="button"onclick="press()" id="button">
+		Click me to mine an ore.
+	</button>	
+<div id="cobbleBox">
+		<img src="assets/Cobble.png" id="Cobble">
+		<div id="cobbleDisplay"></div>
+	</div>	
+	<div id="ironBox">
+		<img src="assets/Iron.png" id="Iron">
+		<div id="ironDisplay"></div>
+	</div>
+
+
+	<div id="diamondBox">
+		<img src="assets/Diamond.png" id="Diamond">
+		<div id="diamondDisplay"></div>
+	</div>
+	<div id="goldBox">
+		<img src="assets/Gold.png" id="Gold">
+		<div id="goldDisplay"></div>
+	</div>
+
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

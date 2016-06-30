@@ -1,15 +1,53 @@
-#button{
-	margin-left: 575px;
+body {
+	background-image:url("../assets/Cave.png");
 }
+
+
+#button {
+	width: 200px;
+	height: 100px;
+	margin-left: 100px;
+	font-size: 25px;
+}
+
 #Cobble {
-	margin-top: 100px
+
 }
 #Diamond {
-	margin-top: 100px
-}
+	margin-left: 200px;
+	}
 #Iron {
 	margin-top: 100px
 }
 #Gold {
 	margin-top: 100px
+}
+
+#diamondDisplay{
+	font-size-adjust: 10000000000px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+
+}
+#goldDisplay{
+	font-size-adjust: 10000000000px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+
+}
+#ironDisplay{
+	font-size-adjust: 10000000000px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+
+}
+#cobbleDisplay{
+	font-size-adjust: 10000000000px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+
 }
