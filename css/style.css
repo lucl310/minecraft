@@ -1,7 +1,9 @@
 body {
 	background-image:url("../assets/Cave.png");
 }
-
+h1 {
+	color: aqua;
+}
 
 #button {
 	width: 200px;
